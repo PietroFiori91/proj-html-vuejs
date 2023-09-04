@@ -8,7 +8,7 @@ export default {};
   <div class="my-container">
     <div class="container py-5">
       <div class="row justify-content-center">
-        <!-- First Div with Title and UL -->
+        <!-- UL DIV -->
         <div class="col-md-4">
           <h3>ENJOYABLE INSIGHTS</h3>
           <div class="container-box">
@@ -23,7 +23,7 @@ export default {};
           </div>
         </div>
 
-        <!-- Second Div (Card 1) -->
+        <!-- CARD 1 -->
         <div class="col-md-4">
           <div class="card container-box">
             <img
@@ -37,7 +37,7 @@ export default {};
           </div>
         </div>
 
-        <!-- Third Div (Card 2) -->
+        <!-- CARD 2 -->
         <div class="col-md-4">
           <div class="card container-box">
             <img

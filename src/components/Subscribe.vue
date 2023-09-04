@@ -4,16 +4,16 @@
 export default {
   data() {
     return {
+      // STORING USER EMAIL
       email: "",
     };
   },
   methods: {
+    // TRIGGER TO USER SUBMITS
     subscribe() {
-      // You can implement the subscription logic here
-      // For example, send a request to your backend API
-      // to store the email address.
+      //LOGGING MSG WITH USER EMAIL
       console.log("Subscribed with email:", this.email);
-      // Clear the input field after submission
+      // CLEAR INPUT
       this.email = "";
     },
   },

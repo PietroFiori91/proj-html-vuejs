@@ -1,4 +1,6 @@
 <!-- IMPORTA VARIABILI SASS -->
+<!-- _______________________________ -->
+<!-- DYNAMICALLY ADD COLS -->
 
 <script>
 export default {};
@@ -6,7 +8,7 @@ export default {};
 
 <template>
   <div class="my-container">
-    <div class="d-flex col-12 flex-column align-items-center pt-5">
+    <div class="d-flex col-12 flex-column align-items-center py-5">
       <h5>STIMULATED TO LEARN ?</h5>
       <h2>Featured Online Courses</h2>
     </div>
@@ -14,7 +16,7 @@ export default {};
       <div class="row">
         <!-- COL 1 -->
         <div class="col-md-6">
-          <div class="row">
+          <div class="row py-2">
             <div class="col-4">
               <div class="round-image">
                 <img
@@ -34,7 +36,87 @@ export default {};
         </div>
         <!-- COL 2 -->
         <div class="col-md-6">
-          <div class="row">
+          <div class="row py-2">
+            <div class="col-4">
+              <div class="round-image">
+                <img
+                  src="../assets/img/course-02-480x298.jpg"
+                  alt="Image 1"
+                  class="img-fluid rounded-circle"
+                />
+              </div>
+            </div>
+            <div class="col-8">
+              <p class="price">$99</p>
+              <h4 class="main-title">Main Title</h4>
+              <span class="span">Span 1</span>
+              <span class="span">Span 2</span>
+            </div>
+          </div>
+        </div>
+        <!-- COL 3 -->
+        <div class="col-md-6">
+          <div class="row py-2">
+            <div class="col-4">
+              <div class="round-image">
+                <img
+                  src="../assets/img/course-02-480x298.jpg"
+                  alt="Image 1"
+                  class="img-fluid rounded-circle"
+                />
+              </div>
+            </div>
+            <div class="col-8">
+              <p class="price">$99</p>
+              <h4 class="main-title">Main Title</h4>
+              <span class="span">Span 1</span>
+              <span class="span">Span 2</span>
+            </div>
+          </div>
+        </div>
+        <!-- COL 4 -->
+        <div class="col-md-6">
+          <div class="row py-2">
+            <div class="col-4">
+              <div class="round-image">
+                <img
+                  src="../assets/img/course-02-480x298.jpg"
+                  alt="Image 1"
+                  class="img-fluid rounded-circle"
+                />
+              </div>
+            </div>
+            <div class="col-8">
+              <p class="price">$99</p>
+              <h4 class="main-title">Main Title</h4>
+              <span class="span">Span 1</span>
+              <span class="span">Span 2</span>
+            </div>
+          </div>
+        </div>
+        <!-- COL 5 -->
+        <div class="col-md-6">
+          <div class="row py-2">
+            <div class="col-4">
+              <div class="round-image">
+                <img
+                  src="../assets/img/course-02-480x298.jpg"
+                  alt="Image 1"
+                  class="img-fluid rounded-circle"
+                />
+              </div>
+            </div>
+            <div class="col-8">
+              <p class="price">$99</p>
+              <h4 class="main-title">Main Title</h4>
+              <span class="span">Span 1</span>
+              <span class="span">Span 2</span>
+            </div>
+          </div>
+        </div>
+        <!-- COL 6 -->
+        <div class="col-md-6">
+          <div class="row py-2">
             <div class="col-4">
               <div class="round-image">
                 <img
@@ -56,8 +138,10 @@ export default {};
     </div>
 
     <!-- BOTTONE -->
-    <div class="text-center mt-4">
-      <button class="btn">Click Me</button>
+    <div class="text-center pb-5">
+      <button class="btn mb-5 px-5">
+        View all courses<i class="fas fa-arrow-right p-2"></i>
+      </button>
     </div>
   </div>
 </template>
@@ -69,8 +153,7 @@ export default {};
   background-color: rgb(245, 247, 250);
 }
 .container {
-  padding: 40px;
-  padding: 10rem 2rem;
+  padding: 1rem;
 }
 
 .round-image {

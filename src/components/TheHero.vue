@@ -1,4 +1,7 @@
 <!-- IMPORTA VARIABILI SASS -->
+<!-- BG IMAGES DA SPOSTARE -->
+<!-- _______________________________ -->
+<!-- DYNAMICALLY ADD PARTNERS LOGO -->
 
 <script>
 export default {};
@@ -8,7 +11,7 @@ export default {};
   <section class="hero">
     <div class="container">
       <div class="row align-items-center">
-        <!-- Left Column -->
+        <!-- LEFT COL -->
         <div class="col-md-4">
           <div class="hero-content">
             <h1 class="hero-title">Title 1 Title 1 Title 1 Title 1</h1>
@@ -21,7 +24,7 @@ export default {};
           </div>
         </div>
 
-        <!-- Right Column -->
+        <!-- RIGHT COL -->
         <div class="col-md-6 offset-md-2">
           <div class="hero-image-container">
             <div class="background-1">
@@ -37,7 +40,6 @@ export default {};
               <img src="../assets/img/maxcoach-shape-08.png" alt="" />
             </div>
             <div class="hero-image">
-              <!-- Add your round-bordered image here -->
               <img
                 src="../assets/img/about-me-profile-ohm4dxoearqbxny7q3bq1pzbdgofdx0tobbeqcvzd0.jpg"
                 alt="Your Image"
@@ -48,6 +50,7 @@ export default {};
         </div>
       </div>
     </div>
+    <!-- PARTNERS LOGOS GRAY -->
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-2">
