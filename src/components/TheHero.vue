@@ -42,8 +42,7 @@ export default {};
             <div class="hero-image">
               <img
                 src="../assets/img/about-me-profile-ohm4dxoearqbxny7q3bq1pzbdgofdx0tobbeqcvzd0.jpg"
-                alt="Your Image"
-                class="img-fluid rounded-circle"
+                class="img rounded-circle"
               />
             </div>
           </div>
@@ -135,7 +134,7 @@ export default {};
   text-align: center;
 }
 
-.img-fluid.rounded-circle {
+.img.rounded-circle {
   border-radius: 50%;
   max-width: 100%;
   height: 500px;
@@ -148,6 +147,16 @@ export default {};
   position: absolute;
   width: 50%;
   height: 50%;
+}
+
+.background-1 {
+  right: -600px;
+  bottom: 200px;
+}
+
+.background-2 {
+  right: -400px;
+  bottom: -80px;
 }
 
 .img-client {
